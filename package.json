@@ -1,0 +1,22 @@
+{
+  "name": "registeration-form",
+  "version": "1.0.0",
+  "description": "Complete Registeration Form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js -e js,hbs",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "ZK",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "validator": "^13.6.0"
+  }
+}
